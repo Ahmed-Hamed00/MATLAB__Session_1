@@ -1,0 +1,17 @@
+git init  ==> initialization
+git add "Name file1.txt" "Name file2.txt"==> git add A1.txt (To prepare the file for uploading) 
+git add . ==> upload the latest file(s) created
+git status ==>To check the status of all the files present(check if the files added or not)
+git commit -m "comment" ==>: To add a comment to all the files
+==================================================================================================================================
+git config --glopal user.email “your email” ==> 1st time only 
+git config -- glopal user.name “your name” ==> 1st time only 
+==================================================================================================================================
+git remote add origin https://github.com/Ahmed-Hamed00/Matlab_Session1_A1.git ==> Add the location of GitHub ==> 1st time only
+git push -u origin master ==> upload files on GitHub ==> 1st time only
+git push ==> any time only
+==================================================================================================================================
+ code ==> https ==> copy link ==> git clone link
+==================================================================================================================================
+git pull ==> update files (download newest files from GitHub )
+git log ==> show the modifications done by members of team or creator on GitHub 
